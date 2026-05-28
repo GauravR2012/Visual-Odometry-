@@ -1,7 +1,7 @@
 # KITTI stereo visual odometry
 
-Monocular-free stereo VO pipeline using ORB features, stereo depth, and PnP pose estimation evaluated against KITTI ground truth.
 
+Stereo visual odometry pipeline using ORB features, StereoBM depth estimation, and PnP pose estimation evaluated against KITTI ground truth. Uses both left and right camera images to recover metric-scale depth — no scale ambiguity unlike monocular VO.
 ## What it does
 
 1. Loads a KITTI stereo sequence (image_2 + image_3)
